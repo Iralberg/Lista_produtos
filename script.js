@@ -67,7 +67,7 @@ function mostrarlista(){
  }else
  {for(let item of lista){
   let li= document.createElement('li')
-  li.innerHTML=`Produto: ${item.nome} | Preço: R$ ${item.preco}`
+  li.innerHTML=`Produto: ${item.nome} | Preço: R$ ${item.preco.toFixed(2)}`
   ul.appendChild(li)
  }
  
