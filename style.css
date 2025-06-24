@@ -1,0 +1,26 @@
+body{
+  
+}
+main{
+    font-family:sans-serif ;
+    text-align: center; 
+     background-color: rgb(45, 149, 153);
+     padding: 6px;
+}
+#res{
+    background-color: aliceblue;
+    padding: 4px;
+    width: 500px;
+    margin: auto;
+    display: none;
+}
+button{
+    background-color: rgb(91, 187, 142);
+    border: none;
+}
+#total{
+    background-color: white;
+    width: 500px;
+    margin: auto;
+   
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Automação</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <h2>
+    Lista Berg
+    </h2>
+
+ 
+  <label for="ss">Produto: </label><input type="text" placeholder="produto..." id="produto"> 
+  <br> <br>
+  <label for="ss">Preço: </label><input type="number" placeholder="Preço..." id="preco">
+   <button onclick="adicionar()">Adicionar</button>
+  <br>
+  <br> 
+  <div id="res"></div>
+  <Button onclick="soma()">Soma Total</Button>
+  <Button onclick="mostrarlista()">Lista Final</Button>
+  <Button onclick="gerarPDF()">Baixar Lista</Button>
+
+ 
+    <section id="total">
+      <div id="listaFinal">    </div>
+      <div id="calc">  </div>
+    </section>
+  </main>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+
+  <script src="script.js"></script>
+</body>
+</html>
