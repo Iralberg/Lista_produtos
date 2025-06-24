@@ -1,6 +1,4 @@
-body{
-  
-}
+
 main{
     font-family:sans-serif ;
     text-align: center; 
@@ -10,18 +8,25 @@ main{
 }
 #res{
     background-color: aliceblue;
-    padding: 4px;
-    width: 500px;
+    padding-bottom: 2px;
+    padding-top: 2px;
+    width: 300px;
     margin: auto;
     display: none;
+    font-size: 15px;
 }
 button{
     background-color: rgb(91, 187, 142);
     border: none;
+    font-size: 15px;
 }
 #total{
     background-color: white;
-    width: 500px;
+    width: 300px;
     margin: auto;
    
+}
+#listaFinal{
+    width: 300px;
+    font-size: 18px;
 }
