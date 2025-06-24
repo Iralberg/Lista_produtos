@@ -6,6 +6,7 @@ main{
     text-align: center; 
      background-color: rgb(45, 149, 153);
      padding: 6px;
+     font-size: 23px;
 }
 #res{
     background-color: aliceblue;
